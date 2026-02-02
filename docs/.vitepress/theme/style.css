@@ -51,23 +51,68 @@
     border-bottom-color: var(--vp-c-divider);
 }
 
-/* Custom "Glass" effects for sidebar/nav in dark mode */
-.dark .VPNav,
-.dark .VPSidebar,
-.dark .VPNavScreen {
-    background-color: rgba(5, 5, 10, 0.85);
-    backdrop-filter: blur(10px);
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/* Responsive Layout Tweaks                                                   */
+/* -------------------------------------------------------------------------- */
+
+/* Universal Fluid Image Rule */
+.VPHero .image-src {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 350px;
+    /* Cap max height generally */
+    object-fit: contain;
 }
 
-/* Mobile Responsiveness Improvements */
-@media (max-width: 768px) {
-    .dark {
-        /* Tone down the hero gradient on mobile for better text readability */
-        --vp-home-hero-image-filter: blur(60px);
+/* 
+   VitePress Breakpoints:
+   - Mobile: < 640px
+   - Tablet: 640px - 959px
+   - Desktop: >= 960px
+*/
+
+/* Mobile (Phones) */
+@media (max-width: 639px) {
+    .VPHero .image-src {
+        max-width: 180px;
+        /* Smaller logo on phones */
+        max-height: 180px;
+        margin-bottom: 2rem;
     }
 
-    /* Adjust hero text gradient angle for vertical flow */
     .dark {
+        --vp-home-hero-image-filter: blur(60px);
+        /* Softer blur */
+        /* Vertical Gradient */
         --vp-home-hero-name-background: -webkit-linear-gradient(180deg, #b794f4 10%, #9D74F4 50%, #805AD5 90%);
+    }
+
+    /* Increase padding for header clearance */
+    .VPHero {
+        padding-top: calc(var(--vp-nav-height) + 40px) !important;
+    }
+}
+
+/* Tablet (Portrait/Small Landscape) */
+@media (min-width: 640px) and (max-width: 959px) {
+    .VPHero .image-src {
+        max-width: 240px;
+        max-height: 240px;
+    }
+
+    .VPSidebar {
+        background-color: var(--vp-c-bg);
+        /* Fix sidebar background */
+    }
+}
+
+/* Desktop */
+@media (min-width: 960px) {
+    .VPHero .image-src {
+        max-width: 320px;
+        max-height: 320px;
     }
 }

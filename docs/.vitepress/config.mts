@@ -183,6 +183,11 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Trinity-Vita' },
       { icon: 'discord', link: 'https://discord.gg/trinity' }
-    ]
+    ],
+
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2024-present Trinity Projects'
+    }
   }
 })
