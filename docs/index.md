@@ -3,23 +3,29 @@
 layout: home
 
 hero:
-  name: "Trinity Projects"
-  text: "A open source eco-system"
-  tagline: My great project tagline
+  name: "Trinity Wiki"
+  text: "The official knowledge base"
+  tagline: Documentation, Guides, and Developer Resources for Trinity Projects.
+  image:
+    src: /icon-512.png
+    alt: Trinity Logo
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Get Started
+      link: /guides/getting-started/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Documentation
+      link: /docs/
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Projects
+    details: Explore the Trinity Launcher, SDK, and other core components.
+    link: /dev/projects/
+  - title: Guides & Tutorials
+    details: Step-by-step guides to get you started and help you master the ecosystem.
+    link: /guides/
+  - title: Developer Zone
+    details: Contributing guidelines, technical architecture, and setup instructions.
+    link: /dev/
 ---
 

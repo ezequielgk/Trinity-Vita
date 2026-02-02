@@ -1,0 +1,73 @@
+/**
+ * Custom CSS for Trinity Projects
+ * Based on the "Deep Blue / Violet" aesthetic
+ */
+
+:root {
+    /* Brand Colors - Violet/Purple */
+    --vp-c-brand-1: #9D74F4;
+    --vp-c-brand-2: #855AD5;
+    --vp-c-brand-3: #B794F4;
+
+    --vp-c-brand-soft: rgba(157, 116, 244, 0.14);
+}
+
+.dark {
+    /* Backgrounds - Deep Midnight Blue */
+    --vp-c-bg: #05050A;
+    --vp-c-bg-alt: #0B0E14;
+    --vp-c-bg-elv: #13161C;
+    --vp-c-bg-soft: #1A1D24;
+
+    /* Borders */
+    --vp-c-divider: rgba(255, 255, 255, 0.08);
+    --vp-c-gutter: rgba(255, 255, 255, 0.08);
+
+    /* Text */
+    --vp-c-text-1: rgba(255, 255, 255, 0.92);
+    --vp-c-text-2: rgba(255, 255, 255, 0.70);
+
+    /* Home Hero Customization */
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #b794f4 10%, #9D74F4 50%, #805AD5 90%);
+    --vp-home-hero-image-background-image: linear-gradient(-45deg, #9d74f4 50%, #6b46c1 50%);
+    --vp-home-hero-image-filter: blur(44px);
+}
+
+/* Custom Button Styling */
+.VPButton.brand {
+    background-image: linear-gradient(to right, #9D74F4, #855AD5);
+    border: none;
+    transition: opacity 0.25s;
+}
+
+.VPButton.brand:hover {
+    background-image: linear-gradient(to right, #855AD5, #9D74F4);
+    opacity: 0.9;
+}
+
+/* Navbar Customization */
+.VPNav {
+    border-bottom-color: var(--vp-c-divider);
+}
+
+/* Custom "Glass" effects for sidebar/nav in dark mode */
+.dark .VPNav,
+.dark .VPSidebar,
+.dark .VPNavScreen {
+    background-color: rgba(5, 5, 10, 0.85);
+    backdrop-filter: blur(10px);
+}
+
+/* Mobile Responsiveness Improvements */
+@media (max-width: 768px) {
+    .dark {
+        /* Tone down the hero gradient on mobile for better text readability */
+        --vp-home-hero-image-filter: blur(60px);
+    }
+
+    /* Adjust hero text gradient angle for vertical flow */
+    .dark {
+        --vp-home-hero-name-background: -webkit-linear-gradient(180deg, #b794f4 10%, #9D74F4 50%, #805AD5 90%);
+    }
+}
