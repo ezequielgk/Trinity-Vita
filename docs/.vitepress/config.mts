@@ -38,12 +38,10 @@ export default defineConfig({
         items: [
           { text: 'Overview', link: '/guides/' },
           { text: 'Getting Started', link: '/guides/getting-started/' },
-          { text: 'Advanced', link: '/guides/advanced/' },
           {
             text: 'Troubleshooting',
             collapsed: true,
             items: [
-              { text: 'Index', link: '/guides/troubleshooting/' },
               { text: 'Common Issues', link: '/guides/troubleshooting/common-issues' },
               { text: 'Logs & Reports', link: '/guides/troubleshooting/logs-reports' }
             ]
@@ -55,29 +53,34 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Overview', link: '/dev/' },
-          { text: 'Setup', link: '/dev/setup' },
-          { text: 'Libraries', link: '/dev/libraries/' },
           {
             text: 'Contributing',
             collapsed: true,
             items: [
-              { text: 'Guide', link: '/dev/contributing/' },
-              { text: 'How to Contribute', link: '/dev/contributing/how-to-contribute' },
-              { text: 'Code Style', link: '/dev/contributing/code-style' },
-              { text: 'Commit Strategy', link: '/dev/contributing/commit-strategy' },
-              { text: 'Issues', link: '/dev/contributing/issues' },
-              { text: 'Pull Requests', link: '/dev/contributing/pull-requests' }
-            ]
-          },
-          {
-            text: 'Dev Setup',
-            collapsed: true,
-            items: [
-              { text: 'Requirements', link: '/dev/development-setup/requirements' },
-              { text: 'Local Environment', link: '/dev/development-setup/local-environment' },
-              { text: 'Build & Run', link: '/dev/development-setup/build-run' },
-              { text: 'Debugging', link: '/dev/development-setup/debugging' }
-            ]
+              {
+                text: 'Trinity Launcher',
+                collapsed: false,
+                items: [
+                  { text: 'Guide', link: '/dev/contributing/trinity-launcher/' },
+                  { text: 'How to Contribute', link: '/dev/contributing/trinity-launcher/how-to-contribute' },
+                  { text: 'Code Style', link: '/dev/contributing/trinity-launcher/code-style' },
+                  { text: 'Commit Strategy', link: '/dev/contributing/trinity-launcher/commit-strategy' },
+                  { text: 'Issues', link: '/dev/contributing/trinity-launcher/issues' },
+                  { text: 'Pull Requests', link: '/dev/contributing/trinity-launcher/pull-requests' }
+                ]
+              },
+              {
+                text: 'Hytale Launcher',
+                collapsed: true,
+                items: [
+                  { text: 'Guide', link: '/dev/contributing/hytale-launcher/' },
+                  { text: 'How to Contribute', link: '/dev/contributing/hytale-launcher/how-to-contribute' },
+                  { text: 'Code Style', link: '/dev/contributing/hytale-launcher/code-style' },
+                  { text: 'Commit Strategy', link: '/dev/contributing/hytale-launcher/commit-strategy' },
+                  { text: 'Issues', link: '/dev/contributing/hytale-launcher/issues' },
+                  { text: 'Pull Requests', link: '/dev/contributing/hytale-launcher/pull-requests' }
+                ]
+              }]
           },
           {
             text: 'Projects',
@@ -96,25 +99,16 @@ export default defineConfig({
                 ]
               },
               {
-                text: 'Trinity SDK',
+                text: 'Hytale Launcher',
                 collapsed: true,
                 items: [
-                  { text: 'Home', link: '/dev/projects/trinity-sdk/' },
-                  { text: 'Overview', link: '/dev/projects/trinity-sdk/overview' },
-                  { text: 'API', link: '/dev/projects/trinity-sdk/api' }
+                  { text: 'Home', link: '/dev/projects/hytale-launcher/' },
+                  { text: 'Architecture', link: '/dev/projects/hytale-launcher/architecture' },
+                  { text: 'Instances', link: '/dev/projects/hytale-launcher/instance-management' },
+                  { text: 'Build', link: '/dev/projects/hytale-launcher/build-process' }
                 ]
               }
-            ]
-          },
-          {
-            text: 'Shared Technical',
-            collapsed: true,
-            items: [
-              { text: 'Index', link: '/dev/shared-technical/' },
-              { text: 'Architecture', link: '/dev/shared-technical/core-architecture' },
-              { text: 'Configuration', link: '/dev/shared-technical/configuration-system' },
-              { text: 'File Layout', link: '/dev/shared-technical/file-layout' },
-              { text: 'Logging', link: '/dev/shared-technical/logging' }
+
             ]
           }
         ]
@@ -124,26 +118,8 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Overview', link: '/docs/' },
-          {
-            text: 'Concepts',
-            collapsed: true,
-            items: [
-              { text: 'Index', link: '/docs/concepts/' },
-              { text: 'Instances', link: '/docs/concepts/instances' },
-              { text: 'Profiles', link: '/docs/concepts/profiles' },
-              { text: 'Synchronization', link: '/docs/concepts/synchronization' }
-            ]
-          },
-          {
-            text: 'Configuration',
-            collapsed: true,
-            items: [
-              { text: 'Index', link: '/docs/configuration/' },
-              { text: 'Global Settings', link: '/docs/configuration/global-settings' },
-              { text: 'Advanced Options', link: '/docs/configuration/advanced-options' }
-            ]
-          },
-          { text: 'Downloads', link: '/docs/downloads/' }
+          { text: 'Concepts', link: '/docs/concepts/' },
+          { text: 'Configuration', link: '/docs/configuration/' }
         ]
       },
       {
@@ -182,22 +158,20 @@ export default defineConfig({
           { text: 'Introduction', link: '/about/' },
           { text: 'Mission', link: '/about/mission' },
           { text: 'Community Values', link: '/about/community-values' },
-          { text: 'Open Source', link: '/about/open-source' },
-          { text: 'License', link: '/about/license' },
-          { text: 'Privacy Policy', link: '/privacy/' },
-          { text: 'DMCA', link: '/dmca/' }
+          { text: 'License', link: '/about/license' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Trinity-Vita' },
-      { icon: 'discord', link: 'https://discord.gg/trinity' }
+      { icon: 'github', link: 'https://github.com/Trinity-LA/Trinity-Launcher' },
+      { icon: 'discord', link: 'https://discord.gg/ettXssJs4b' },
+      { icon: { svg: '<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M21.68 3.56c-.28-.2-.68-.24-1.02-.08L3.26 10.4c-.7.3-1.14.98-1.14 1.74s.44 1.44 1.14 1.74l4.46 1.9 1.58 5.16a1.98 1.98 0 0 0 1.88 1.4c.54 0 1.06-.22 1.44-.6l2.12-2.12 4.46 3.06c.38.26.84.34 1.3.22s.84-.44 1.02-.88l4-16a2 2 0 0 0-.84-2.46zM13 14 8.7 11.8l9.6-6-8.2 8.6v.02L13 14z"/></svg>' }, link: 'https://t.me/CyberCoffeFossOrg' }
     ],
 
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024-present Trinity Projects'
+      message: 'Released under the BSD-3-Clause License.',
+      copyright: 'Copyright © 2025-present Trinity Projects'
     }
   }
 })

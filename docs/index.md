@@ -19,7 +19,7 @@ hero:
 
 features:
   - title: Projects
-    details: Explore the Trinity Launcher, SDK, and other core components.
+    details: Explore the Trinity Launcher and Hytale Launcher.
     link: /dev/projects/
   - title: Guides & Tutorials
     details: Step-by-step guides to get you started and help you master the ecosystem.
