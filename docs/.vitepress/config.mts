@@ -90,7 +90,7 @@ export default defineConfig({
                 items: [
                   { text: 'Home', link: '/dev/projects/trinity-launcher/' },
                   { text: 'Architecture', link: '/dev/projects/trinity-launcher/architecture' },
-                  { text: 'Auth', link: '/dev/projects/trinity-launcher/authentication' },
+
                   { text: 'Instances', link: '/dev/projects/trinity-launcher/instance-management' },
                   { text: 'Build', link: '/dev/projects/trinity-launcher/build-process' }
                 ]
@@ -155,12 +155,22 @@ export default defineConfig({
             text: 'Minecraft',
             collapsed: true,
             items: [
-              { text: 'Index', link: '/launchers/minecraft/' },
               { text: 'Overview', link: '/launchers/minecraft/overview' },
               { text: 'Installation', link: '/launchers/minecraft/installation' },
               { text: 'Configuration', link: '/launchers/minecraft/configuration' },
               { text: 'Usage', link: '/launchers/minecraft/usage' },
               { text: 'Troubleshooting', link: '/launchers/minecraft/troubleshooting' }
+            ]
+          },
+          {
+            text: 'Hytale',
+            collapsed: true,
+            items: [
+              { text: 'Overview', link: '/launchers/hytale/overview' },
+              { text: 'Installation', link: '/launchers/hytale/installation' },
+              { text: 'Configuration', link: '/launchers/hytale/configuration' },
+              { text: 'Usage', link: '/launchers/hytale/usage' },
+              { text: 'Troubleshooting', link: '/launchers/hytale/troubleshooting' }
             ]
           }
         ]
