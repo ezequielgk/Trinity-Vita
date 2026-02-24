@@ -33,4 +33,4 @@ If you are new to the project, we recommend following this order:
 
 * **Issues:** To report errors, use the **Issues** tab within each repository.
 
-<DiscordCard />
+<CommunityCard />
