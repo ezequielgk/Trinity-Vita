@@ -66,7 +66,7 @@ Si prefieres una interfaz gráfica:
 Ideal para usuarios que prefieren la gestión manual sin gestores de paquetes.
 
 1. **Descargar:**  
-   <MinecraftButton link="https://github.com/Trinity-Vita/Trinity-Launcher/releases/latest" />
+   <MinecraftButton link="https://github.com/Trinity-LA/Trinity-Launcher/releases/download/2.6-beta/Trinity_Launcher-x86_64.AppImage" />
 
 2. **Instalar Gear Level:** Busca "Gear Level" en tu tienda de aplicaciones e instálalo.
 3. **Abrir con Gear Level:** Haz clic derecho en el archivo `.AppImage` -> Abrir con -> **Gear Level**.
