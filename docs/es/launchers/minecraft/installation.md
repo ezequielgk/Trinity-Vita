@@ -17,9 +17,14 @@ Esta es la forma preferida para los miembros de la comunidad que desean las func
 
 **Ejecuta estos comandos en orden en tu terminal:**
 
+0. **Elimina el repositorio de Trinity (si tenías la versión anterior):**
+    ```bash
+    flatpak remote-delete trinity
+    ```
+
 1. **Añade el repositorio de Trinity:**
     ```bash
-    flatpak remote-add --if-not-exists trinity https://huggingface.co/datasets/ccoff...
+    flatpak remote-add trinity https://github.com/Trinity-LA/Trinity-Launcher/releases/download/flatpak/com.trench.trinity.launcher.flatpakrepo
     ```
 
 2. **Instala el runtime de KDE (Qt6):**
@@ -43,9 +48,14 @@ Esta es la forma preferida para los miembros de la comunidad que desean las func
 
 Si prefieres una interfaz gráfica:
 
+0. **Elimina el repositorio antiguo (si aplica):**
+    ```bash
+    flatpak remote-delete trinity
+    ```
+
 1. Añade primero el repositorio:
     ```bash
-    flatpak remote-add --if-not-exists trinity https://huggingface.co/datasets/ccoff...
+    flatpak remote-add trinity https://github.com/Trinity-LA/Trinity-Launcher/releases/download/flatpak/com.trench.trinity.launcher.flatpakrepo
     ```
 
 2. Busca **"Trinity Launcher"** en tu tienda de software (GNOME Software, Discover).
