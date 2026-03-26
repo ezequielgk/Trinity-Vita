@@ -17,27 +17,27 @@ This is the preferred way for community members who want the latest features and
 
 **Run these commands in order in your terminal:**
 
-0. **Remove the Trinity repository (if you had the old version):**
+1. **Remove the Trinity repository (if you had the old version):**
     ```bash
     flatpak remote-delete trinity
     ```
 
-1. **Add the Trinity repository:**
+2. **Add the Trinity repository:**
     ```bash
     flatpak remote-add trinity https://github.com/Trinity-LA/Trinity-Launcher/releases/download/flatpak/com.trench.trinity.launcher.flatpakrepo
     ```
 
-2. **Install the KDE runtime (Qt6):**
+3. **Install the KDE runtime (Qt6):**
     ```bash
     flatpak install flathub org.kde.Platform//6.10
     ```
 
-3. **Install the Qt WebEngine base:**
+4. **Install the Qt WebEngine base:**
     ```bash
     flatpak install flathub io.qt.qtwebengine.BaseApp//6.10
     ```
 
-4. **Install Trinity Launcher:**
+5. **Install Trinity Launcher:**
     ```bash
     flatpak install com.trench.trinity.launcher
     ```
@@ -48,17 +48,17 @@ This is the preferred way for community members who want the latest features and
 
 If you prefer a graphical interface:
 
-0. **Remove the old repository (if applicable):**
+1. **Remove the old repository (if applicable):**
     ```bash
     flatpak remote-delete trinity
     ```
 
-1. Add the repository first:
+2. Add the repository first:
     ```bash
     flatpak remote-add trinity https://github.com/Trinity-LA/Trinity-Launcher/releases/download/flatpak/com.trench.trinity.launcher.flatpakrepo
     ```
 
-2. Search for **"Trinity Launcher"** in your Software Store (GNOME Software, Discover).
+3. Search for **"Trinity Launcher"** in your Software Store (GNOME Software, Discover).
     > *Note: You may need to restart the store after adding the repo.*
 
 ### Method C: AppImage (Beta - Portable)
