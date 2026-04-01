@@ -34,7 +34,7 @@ const texts = computed(() => {
 })
 
 const openDiscord = () => {
-  window.open('https://discord.gg/GWaN4eNjvz', '_blank')
+  window.open('https://discord.gg/meVYHCSWQX', '_blank')
 }
 
 const openTelegram = () => {
