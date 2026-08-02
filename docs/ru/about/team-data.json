@@ -1,0 +1,134 @@
+[
+  {
+    "avatar": "https://github.com/Trinity-LA.png",
+    "name": "Crow",
+    "title": "Создатель проекта",
+    "desc": "Основатель и визионер Trinity Launcher. Руководит концептуальной разработкой и определяет стратегическое направление проекта.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/Trinity-LA"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/javiercplus.png",
+    "name": "javiercplus",
+    "title": "Соавтор и разработчик",
+    "desc": "Соавтор, активно участвующий в разработке лаунчера и одновременно курирующий проект. Обеспечивает качество и координацию команды.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/javiercplus"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/0rt4.png",
+    "name": "Orta",
+    "title": "Руководитель проекта",
+    "desc": "Соруководитель проекта с опытом в архитектуре программного обеспечения и техническом лидерстве. Курирует реализацию ключевых функций.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/0rt4"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/MrTanuk.png",
+    "name": "MrTanuk",
+    "title": "Основной разработчик",
+    "desc": "Внёс вклад в основную разработку вместе с JavierC и сыграл ключевую роль в решении технических проблем.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/MrTanuk"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/ezequielgk.png",
+    "name": "Ezequiel",
+    "title": "Веб-дизайн",
+    "desc": "Frontend-дизайнер и разработчик, специализирующийся на современных интерфейсах. Отвечает за визуальный дизайн и пользовательский опыт Trinity Launcher.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/ezequielgk"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/KevinRunforrestt.png",
+    "name": "KevinRunforrestt",
+    "title": "Документация и поддержка",
+    "desc": "Занимался переводом файлов документации в формате Markdown и оказывал помощь команде разработчиков.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/KevinRunforrestt"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/HylianSoul.png",
+    "name": "HylianSoul",
+    "title": "Переводчик",
+    "desc": "Внёс вклад в каталанский перевод лаунчера и оказал ценную помощь сообществу.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/HylianSoul"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/BrokenByteOfCode.png",
+    "name": "BrokenByteOfCode",
+    "title": "Переводчик",
+    "desc": "Подготовил украинский перевод Trinity Launcher, помогая расширить наше присутствие для большего числа пользователей.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/BrokenByteOfCode"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/bgusenda.png",
+    "name": "bgusenda",
+    "title": "Переводчик",
+    "desc": "Подготовил португальский перевод Trinity Launcher, помогая расширить наше присутствие для большего числа пользователей.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/bgusenda"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/p3p3p3k4z.png",
+    "name": "p3p3p3k4z",
+    "title": "Участник скрипта сборки",
+    "desc": "Улучшил скрипт компиляции и сборки проекта.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/p3p3p3k4z"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/IoselDev.png",
+    "name": "IoselDev",
+    "title": "Сопровождающий пакетов",
+    "desc": "Внёс вклад исключительно созданием PKGBUILD для пакета в AUR.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/IoselDev"
+      }
+    ]
+  }
+]
