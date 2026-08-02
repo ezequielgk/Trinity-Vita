@@ -5,6 +5,11 @@ import { useData } from 'vitepress'
 const { lang } = useData()
 
 const isSpanish = computed(() => lang.value.startsWith('es'))
+const isPortuguese = computed(() => lang.value.startsWith('pt'))
+const isGerman = computed(() => lang.value.startsWith('de'))
+const isRussian = computed(() => lang.value.startsWith('ru'))
+const isUkrainian = computed(() => lang.value.startsWith('uk'))
+const isItalian = computed(() => lang.value.startsWith('it'))
 
 const texts = computed(() => {
   if (isSpanish.value) {
@@ -18,6 +23,71 @@ const texts = computed(() => {
       redditTitle: 'Únete a la Comunidad',
       redditSubtitle: 'Participa en nuestra comunidad de Reddit r/TrinityUnix',
       redditButton: 'Unirse a Reddit'
+    }
+  }
+  if (isPortuguese.value) {
+    return {
+      discordTitle: 'Precisa de ajuda?',
+      discordSubtitle: 'Entre na nossa comunidade do Discord para obter suporte',
+      discordButton: 'Entrar no Discord',
+      fluxerTitle: 'Fique por dentro',
+      fluxerSubtitle: 'Siga nossa comunidade no Fluxer',
+      fluxerButton: 'Entrar no Fluxer',
+      redditTitle: 'Participe da Comunidade',
+      redditSubtitle: 'Participe da nossa comunidade no Reddit r/TrinityUnix',
+      redditButton: 'Entrar no Reddit'
+    }
+  }
+  if (isGerman.value) {
+    return {
+      discordTitle: 'Brauchst du Hilfe?',
+      discordSubtitle: 'Tritt unserer Discord-Community bei, um Unterstützung zu erhalten',
+      discordButton: 'Discord beitreten',
+      fluxerTitle: 'Bleib auf dem Laufenden',
+      fluxerSubtitle: 'Folge unserer Community auf Fluxer',
+      fluxerButton: 'Fluxer beitreten',
+      redditTitle: 'Der Community beitreten',
+      redditSubtitle: 'Diskutiere in unserer Reddit-Community auf r/TrinityUnix',
+      redditButton: 'Reddit beitreten'
+    }
+  }
+  if (isRussian.value) {
+    return {
+      discordTitle: 'Нужна помощь?',
+      discordSubtitle: 'Присоединяйтесь к нашему сообществу в Discord, чтобы получить поддержку',
+      discordButton: 'Присоединиться к Discord',
+      fluxerTitle: 'Будьте в курсе',
+      fluxerSubtitle: 'Следите за нашим сообществом во Fluxer',
+      fluxerButton: 'Присоединиться к Fluxer',
+      redditTitle: 'Присоединяйтесь к сообществу',
+      redditSubtitle: 'Обсуждайте в нашем сообществе на Reddit r/TrinityUnix',
+      redditButton: 'Присоединиться к Reddit'
+    }
+  }
+  if (isUkrainian.value) {
+    return {
+      discordTitle: 'Потрібна допомога?',
+      discordSubtitle: 'Приєднуйтесь до нашої спільноти в Discord, щоб отримати підтримку',
+      discordButton: 'Приєднатися до Discord',
+      fluxerTitle: 'Будьте в курсі',
+      fluxerSubtitle: 'Слідкуйте за нашою спільнотою у Fluxer',
+      fluxerButton: 'Приєднатися до Fluxer',
+      redditTitle: 'Приєднуйтесь до спільноти',
+      redditSubtitle: 'Обговорюйте в нашій спільноті на Reddit r/TrinityUnix',
+      redditButton: 'Приєднатися до Reddit'
+    }
+  }
+  if (isItalian.value) {
+    return {
+      discordTitle: 'Hai bisogno di aiuto?',
+      discordSubtitle: 'Unisciti alla nostra community su Discord per ricevere supporto',
+      discordButton: 'Unisciti a Discord',
+      fluxerTitle: 'Resta aggiornato',
+      fluxerSubtitle: 'Segui la nostra community su Fluxer',
+      fluxerButton: 'Unisciti a Fluxer',
+      redditTitle: 'Unisciti alla Community',
+      redditSubtitle: 'Discuti nella nostra community Reddit su r/TrinityUnix',
+      redditButton: 'Unisciti a Reddit'
     }
   }
   return {
