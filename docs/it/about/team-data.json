@@ -1,0 +1,134 @@
+[
+  {
+    "avatar": "https://github.com/Trinity-LA.png",
+    "name": "Crow",
+    "title": "Creatore del progetto",
+    "desc": "Fondatore e visionario dietro Trinity Launcher. Guida lo sviluppo concettuale e definisce la direzione strategica del progetto.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/Trinity-LA"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/javiercplus.png",
+    "name": "javiercplus",
+    "title": "Co-creatore e sviluppatore",
+    "desc": "Co-creatore che partecipa attivamente allo sviluppo del launcher mentre supervisiona il progetto. Garantisce qualità e coordinamento del team.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/javiercplus"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/0rt4.png",
+    "name": "Orta",
+    "title": "Supervisore del progetto",
+    "desc": "Co-supervisore del progetto con esperienza in architettura software e leadership tecnica. Supervisiona l'implementazione delle funzionalità chiave.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/0rt4"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/MrTanuk.png",
+    "name": "MrTanuk",
+    "title": "Sviluppatore principale",
+    "desc": "Ha contribuito allo sviluppo principale insieme a JavierC e ha svolto un ruolo chiave nella risoluzione dei problemi tecnici.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/MrTanuk"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/ezequielgk.png",
+    "name": "Ezequiel",
+    "title": "Web Design",
+    "desc": "Designer e sviluppatore frontend specializzato in interfacce moderne. Responsabile del design visivo e dell'esperienza utente di Trinity Launcher.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/ezequielgk"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/KevinRunforrestt.png",
+    "name": "KevinRunforrestt",
+    "title": "Documentazione e supporto",
+    "desc": "Ha gestito la traduzione dei file di documentazione in Markdown e ha fornito assistenza al team di sviluppo.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/KevinRunforrestt"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/HylianSoul.png",
+    "name": "HylianSoul",
+    "title": "Traduttore",
+    "desc": "Ha contribuito alla traduzione in catalano del launcher e ha fornito un prezioso supporto alla community.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/HylianSoul"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/BrokenByteOfCode.png",
+    "name": "BrokenByteOfCode",
+    "title": "Traduttore",
+    "desc": "Ha fornito la traduzione ucraina per Trinity Launcher, aiutandoci a raggiungere più utenti.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/BrokenByteOfCode"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/bgusenda.png",
+    "name": "bgusenda",
+    "title": "Traduttore",
+    "desc": "Ha fornito la traduzione portoghese per Trinity Launcher, aiutandoci a raggiungere più utenti.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/bgusenda"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/p3p3p3k4z.png",
+    "name": "p3p3p3k4z",
+    "title": "Contributore script di build",
+    "desc": "Ha migliorato lo script di compilazione e build del progetto.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/p3p3p3k4z"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/IoselDev.png",
+    "name": "IoselDev",
+    "title": "Manutentore pacchetti",
+    "desc": "Ha contribuito esclusivamente creando il PKGBUILD per il pacchetto AUR.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/IoselDev"
+      }
+    ]
+  }
+]

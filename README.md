@@ -16,7 +16,12 @@ Este es el repositorio oficial de la documentación de **Trinity Projects**, un 
   * `guides/`: Tutoriales de uso.
   * `launchers/`: Detalles de nuestros lanzadores.
   * `es/`: Traducciones completas al español.
+  * `pt/`: Traducciones completas al portugués.
+  * `de/`: Traducciones completas al alemán.
+  * `ru/`: Traducciones completas al ruso.
+  * `uk/`: Traducciones completas al ucraniano.
+  * `it/`: Traducciones completas al italiano.
 
 ## Contribución
 
-Si quieres ayudar con la documentación, por favor revisa el archivo `CONTRIBUTING.md` antes de hacer cualquier cambio. Es obligatorio mantener las traducciones al español actualizadas en la carpeta `/es`.
+Si quieres ayudar con la documentación, por favor revisa el archivo `CONTRIBUTING.md` antes de hacer cualquier cambio. Es obligatorio mantener las traducciones actualizadas en las carpetas `/es`, `/pt`, `/de`, `/ru`, `/uk` e `/it`.

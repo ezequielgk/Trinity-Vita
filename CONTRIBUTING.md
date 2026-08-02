@@ -29,9 +29,9 @@ Para mantener el orden y la integridad del repositorio, todos los colaboradores 
 ## Flujo de Trabajo y Traducciones
 La documentación se organiza en las carpetas principales: `about/`, `dev/`, `docs/`, `guides/` y `launchers/`.
 
-1. **Traducciones Obligatorias:** Si realizas un cambio, edición o agregas contenido en las carpetas principales, debes realizar la traducción correspondiente en el directorio `es/`. 
-   * La estructura de archivos y carpetas en `es/` debe ser un espejo exacto del directorio raíz.
-2. **Sincronización:** No se aceptarán cambios en la versión principal que no tengan su contraparte actualizada en el directorio de español.
+1. **Traducciones Obligatorias:** Si realizas un cambio, edición o agregas contenido en las carpetas principales, debes realizar la traducción correspondiente en los directorios `es/`, `pt/`, `de/`, `ru/`, `uk/` e `it/`. 
+   * La estructura de archivos y carpetas en cada directorio de traducción debe ser un espejo exacto del directorio raíz.
+2. **Sincronización:** No se aceptarán cambios en la versión principal que no tengan su contraparte actualizada en todos los directorios de traducción.
 
 ## Cambios Mayores
 Se requiere autorización previa del administrador para:
