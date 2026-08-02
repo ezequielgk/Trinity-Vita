@@ -10,6 +10,8 @@ Nosso desenvolvimento atualmente se concentra em um ecossistema crescente de pro
 * **Neko Void:** Uma distribuição Void Linux com `runit`, o desktop MATE e suporte a jogos pré-configurado. 100% livre de systemd.
 * **CMUS++:** Um player de música para terminal ultraleve e controlado por teclado, escrito em C++17.
 * **Audio Source:** Use seu dispositivo Android como microfone USB com TUI e controle pela bandeja do sistema.
+* **BedrockOnLinux:** Execute o Minecraft Bedrock para Windows (edição GDK) no Linux com identidade nativa da Microsoft/Xbox.
+* **GenovaLauncher:** Um lançador gráfico moderno para Minecraft: Bedrock Edition no Linux, construído com PySide6 (Qt6).
 
 ## Arquitetura e Filosofia
 
@@ -22,7 +24,7 @@ Para ver a pilha tecnológica completa e o detalhamento dos componentes, consult
 Se você é novo no projeto, recomendamos seguir esta ordem:
 
 1. **Explore os Projetos:** Vá para a seção [Projetos](./projects/index.md) para entender a arquitetura e os detalhes técnicos de cada projeto.
-2. **Escolha seu projeto:** Cada projeto tem sua própria página inicial com documentação completa — [Trinity Launcher](./projects/trinity-launcher/index.md), [Neko Void](./projects/neko-void/index.md), [CMUS++](./projects/cmuspp/index.md) e [Audio Source](./projects/audiosource/index.md).
+2. **Escolha seu projeto:** Cada projeto tem sua própria página inicial com documentação completa — [Trinity Launcher](./projects/trinity-launcher/index.md), [Neko Void](./projects/neko-void/index.md), [CMUS++](./projects/cmuspp/index.md), [Audio Source](./projects/audiosource/index.md), [BedrockOnLinux](./projects/bedrock-on-linux/index.md) e [GenovaLauncher](./projects/genova-launcher/index.md).
 
 ## Comunicação e Suporte
 

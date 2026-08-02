@@ -28,3 +28,15 @@ An ultra-lightweight, keyboard-driven terminal music player written in C++17.
 Use your Android device as a USB microphone with a TUI and system tray control.
 
 - [Project Home](./audiosource/index.md)
+
+## BedrockOnLinux
+
+Run Minecraft Bedrock for Windows (GDK edition) on Linux with native Microsoft/Xbox identity.
+
+- [Project Home](./bedrock-on-linux/index.md)
+
+## GenovaLauncher
+
+A modern graphical launcher for Minecraft: Bedrock Edition on Linux, built with PySide6 (Qt6).
+
+- [Project Home](./genova-launcher/index.md)

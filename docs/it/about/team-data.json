@@ -130,5 +130,17 @@
         "link": "https://github.com/IoselDev"
       }
     ]
+  },
+  {
+    "avatar": "https://avatars.githubusercontent.com/u/198413795?v=4",
+    "name": "Ars-byte",
+    "title": "Sviluppatore CMUS++ e Traduttore",
+    "desc": "Sviluppatore del lettore musicale per terminale CMUS++ e traduttore di questa documentazione.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/Ars-byte"
+      }
+    ]
   }
 ]

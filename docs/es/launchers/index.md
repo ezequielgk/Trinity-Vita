@@ -13,4 +13,15 @@ Juega **Minecraft Bedrock Edition** en Linux con una experiencia casi nativa, im
 - [Instalación](./minecraft/installation) Instala el lanzador
 - [Configuración](./minecraft/configuration) Configura versiones y contenido
 
+### BedrockOnLinux
+Ejecuta **Minecraft Bedrock para Windows (edición GDK)** en Linux con identidad nativa de Microsoft/Xbox, multijugador, amigos y Realms.
+
+- [Resumen](./bedrock-on-linux/) Ejecuta la edición GDK de Windows con identidad nativa de Xbox
+- [Instalación](./bedrock-on-linux/#instalación) AppImage, .deb, .pyz y Flatpak
+
+### GenovaLauncher
+Un lanzador gráfico moderno para **Minecraft: Bedrock Edition** en Linux, construido con PySide6 (Qt6) y basado en mcpelauncher.
+
+- [Resumen](./genova-launcher/) Lanzador moderno con PySide6 para Bedrock Edition
+
 <CommunityCard />

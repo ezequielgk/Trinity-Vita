@@ -28,3 +28,15 @@
 Используйте устройство Android как USB-микрофон с управлением через TUI и системный трей.
 
 - [Домашняя страница проекта](./audiosource/index.md)
+
+## BedrockOnLinux
+
+Запускайте Minecraft Bedrock для Windows (издание GDK) в Linux с нативной учётной записью Microsoft/Xbox.
+
+- [Домашняя страница проекта](./bedrock-on-linux/index.md)
+
+## GenovaLauncher
+
+Современный графический лаунчер для Minecraft: Bedrock Edition в Linux, построенный на PySide6 (Qt6).
+
+- [Домашняя страница проекта](./genova-launcher/index.md)

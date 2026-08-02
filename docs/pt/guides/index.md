@@ -8,6 +8,8 @@ Trinity é um ecossistema de código aberto de projetos Linux: um lançador de j
 - **Neko Void:** Uma distribuição **Void Linux** com `runit`, o desktop MATE e suporte a jogos pré-configurado. 100% livre de systemd.
 - **CMUS++:** Um player de música para terminal.
 - **Audio Source:** Use seu dispositivo Android como microfone USB.
+- **BedrockOnLinux:** Execute o Minecraft Bedrock para Windows (edição GDK) no Linux com identidade nativa da Microsoft/Xbox.
+- **GenovaLauncher:** Um lançador gráfico moderno para Minecraft: Bedrock Edition no Linux.
 
 ## Por Onde Começar?
 

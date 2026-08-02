@@ -13,4 +13,15 @@ Trinity Projects создаёт лаунчеры, которые принося�
 - [Установка](./minecraft/installation) Установка лаунчера
 - [Конфигурация](./minecraft/configuration) Настройка версий и контента
 
+### BedrockOnLinux
+Запускайте **Minecraft Bedrock для Windows (издание GDK)** в Linux с нативной учётной записью Microsoft/Xbox: мультиплеер, друзья и Realms.
+
+- [Обзор](./bedrock-on-linux/) Запуск издания GDK для Windows с нативной учётной записью Xbox
+- [Установка](./bedrock-on-linux/#установка) AppImage, .deb, .pyz и Flatpak
+
+### GenovaLauncher
+Современный графический лаунчер для **Minecraft: Bedrock Edition** в Linux, построенный на PySide6 (Qt6) и основанный на mcpelauncher.
+
+- [Обзор](./genova-launcher/) Современный лаунчер на PySide6 для Bedrock Edition
+
 <CommunityCard />

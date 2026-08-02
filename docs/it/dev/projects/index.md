@@ -28,3 +28,15 @@ Un lettore musicale per terminale ultraleggero e pilotato da tastiera, scritto i
 Usa il tuo dispositivo Android come microfono USB con TUI e controllo dalla tray di sistema.
 
 - [Home del progetto](./audiosource/index.md)
+
+## BedrockOnLinux
+
+Esegui Minecraft Bedrock per Windows (edizione GDK) su Linux con identità nativa Microsoft/Xbox.
+
+- [Home del progetto](./bedrock-on-linux/index.md)
+
+## GenovaLauncher
+
+Un launcher grafico moderno per Minecraft: Bedrock Edition su Linux, costruito con PySide6 (Qt6).
+
+- [Home del progetto](./genova-launcher/index.md)

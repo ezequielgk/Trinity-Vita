@@ -91,6 +91,20 @@ export default defineConfig({
                     items: [
                       { text: 'Home', link: '/dev/projects/audiosource/' }
                     ]
+                  },
+                  {
+                    text: 'BedrockOnLinux',
+                    collapsed: true,
+                    items: [
+                      { text: 'Home', link: '/dev/projects/bedrock-on-linux/' }
+                    ]
+                  },
+                  {
+                    text: 'GenovaLauncher',
+                    collapsed: true,
+                    items: [
+                      { text: 'Home', link: '/dev/projects/genova-launcher/' }
+                    ]
                   }
                 ]
               }
@@ -109,6 +123,20 @@ export default defineConfig({
                   { text: 'Installation', link: '/launchers/minecraft/installation' },
                   { text: 'Configuration', link: '/launchers/minecraft/configuration' },
                   { text: 'Troubleshooting', link: '/launchers/minecraft/troubleshooting' }
+                ]
+              },
+              {
+                text: 'BedrockOnLinux',
+                collapsed: true,
+                items: [
+                  { text: 'Home', link: '/launchers/bedrock-on-linux/' }
+                ]
+              },
+              {
+                text: 'GenovaLauncher',
+                collapsed: true,
+                items: [
+                  { text: 'Home', link: '/launchers/genova-launcher/' }
                 ]
               }
             ]
@@ -194,6 +222,20 @@ export default defineConfig({
                     items: [
                       { text: 'Inicio', link: '/es/dev/projects/audiosource/' }
                     ]
+                  },
+                  {
+                    text: 'BedrockOnLinux',
+                    collapsed: true,
+                    items: [
+                      { text: 'Inicio', link: '/es/dev/projects/bedrock-on-linux/' }
+                    ]
+                  },
+                  {
+                    text: 'GenovaLauncher',
+                    collapsed: true,
+                    items: [
+                      { text: 'Inicio', link: '/es/dev/projects/genova-launcher/' }
+                    ]
                   }
                 ]
               }
@@ -212,6 +254,20 @@ export default defineConfig({
                   { text: 'Instalación', link: '/es/launchers/minecraft/installation' },
                   { text: 'Configuración', link: '/es/launchers/minecraft/configuration' },
                   { text: 'Solución de Problemas', link: '/es/launchers/minecraft/troubleshooting' }
+                ]
+              },
+              {
+                text: 'BedrockOnLinux',
+                collapsed: true,
+                items: [
+                  { text: 'Inicio', link: '/es/launchers/bedrock-on-linux/' }
+                ]
+              },
+              {
+                text: 'GenovaLauncher',
+                collapsed: true,
+                items: [
+                  { text: 'Inicio', link: '/es/launchers/genova-launcher/' }
                 ]
               }
             ]
@@ -307,6 +363,20 @@ export default defineConfig({
                     items: [
                       { text: 'Início', link: '/pt/dev/projects/audiosource/' }
                     ]
+                  },
+                  {
+                    text: 'BedrockOnLinux',
+                    collapsed: true,
+                    items: [
+                      { text: 'Início', link: '/pt/dev/projects/bedrock-on-linux/' }
+                    ]
+                  },
+                  {
+                    text: 'GenovaLauncher',
+                    collapsed: true,
+                    items: [
+                      { text: 'Início', link: '/pt/dev/projects/genova-launcher/' }
+                    ]
                   }
                 ]
               }
@@ -325,6 +395,20 @@ export default defineConfig({
                   { text: 'Instalação', link: '/pt/launchers/minecraft/installation' },
                   { text: 'Configuração', link: '/pt/launchers/minecraft/configuration' },
                   { text: 'Solução de Problemas', link: '/pt/launchers/minecraft/troubleshooting' }
+                ]
+              },
+              {
+                text: 'BedrockOnLinux',
+                collapsed: true,
+                items: [
+                  { text: 'Início', link: '/pt/launchers/bedrock-on-linux/' }
+                ]
+              },
+              {
+                text: 'GenovaLauncher',
+                collapsed: true,
+                items: [
+                  { text: 'Início', link: '/pt/launchers/genova-launcher/' }
                 ]
               }
             ]
@@ -420,6 +504,20 @@ export default defineConfig({
                     items: [
                       { text: 'Start', link: '/de/dev/projects/audiosource/' }
                     ]
+                  },
+                  {
+                    text: 'BedrockOnLinux',
+                    collapsed: true,
+                    items: [
+                      { text: 'Start', link: '/de/dev/projects/bedrock-on-linux/' }
+                    ]
+                  },
+                  {
+                    text: 'GenovaLauncher',
+                    collapsed: true,
+                    items: [
+                      { text: 'Start', link: '/de/dev/projects/genova-launcher/' }
+                    ]
                   }
                 ]
               }
@@ -438,6 +536,20 @@ export default defineConfig({
                   { text: 'Installation', link: '/de/launchers/minecraft/installation' },
                   { text: 'Konfiguration', link: '/de/launchers/minecraft/configuration' },
                   { text: 'Fehlerbehebung', link: '/de/launchers/minecraft/troubleshooting' }
+                ]
+              },
+              {
+                text: 'BedrockOnLinux',
+                collapsed: true,
+                items: [
+                  { text: 'Start', link: '/de/launchers/bedrock-on-linux/' }
+                ]
+              },
+              {
+                text: 'GenovaLauncher',
+                collapsed: true,
+                items: [
+                  { text: 'Start', link: '/de/launchers/genova-launcher/' }
                 ]
               }
             ]
@@ -533,6 +645,20 @@ export default defineConfig({
                     items: [
                       { text: 'Главная', link: '/ru/dev/projects/audiosource/' }
                     ]
+                  },
+                  {
+                    text: 'BedrockOnLinux',
+                    collapsed: true,
+                    items: [
+                      { text: 'Главная', link: '/ru/dev/projects/bedrock-on-linux/' }
+                    ]
+                  },
+                  {
+                    text: 'GenovaLauncher',
+                    collapsed: true,
+                    items: [
+                      { text: 'Главная', link: '/ru/dev/projects/genova-launcher/' }
+                    ]
                   }
                 ]
               }
@@ -551,6 +677,20 @@ export default defineConfig({
                   { text: 'Установка', link: '/ru/launchers/minecraft/installation' },
                   { text: 'Настройка', link: '/ru/launchers/minecraft/configuration' },
                   { text: 'Решение проблем', link: '/ru/launchers/minecraft/troubleshooting' }
+                ]
+              },
+              {
+                text: 'BedrockOnLinux',
+                collapsed: true,
+                items: [
+                  { text: 'Главная', link: '/ru/launchers/bedrock-on-linux/' }
+                ]
+              },
+              {
+                text: 'GenovaLauncher',
+                collapsed: true,
+                items: [
+                  { text: 'Главная', link: '/ru/launchers/genova-launcher/' }
                 ]
               }
             ]
@@ -646,6 +786,20 @@ export default defineConfig({
                     items: [
                       { text: 'Головна', link: '/uk/dev/projects/audiosource/' }
                     ]
+                  },
+                  {
+                    text: 'BedrockOnLinux',
+                    collapsed: true,
+                    items: [
+                      { text: 'Головна', link: '/uk/dev/projects/bedrock-on-linux/' }
+                    ]
+                  },
+                  {
+                    text: 'GenovaLauncher',
+                    collapsed: true,
+                    items: [
+                      { text: 'Головна', link: '/uk/dev/projects/genova-launcher/' }
+                    ]
                   }
                 ]
               }
@@ -664,6 +818,20 @@ export default defineConfig({
                   { text: 'Встановлення', link: '/uk/launchers/minecraft/installation' },
                   { text: 'Налаштування', link: '/uk/launchers/minecraft/configuration' },
                   { text: 'Усунення проблем', link: '/uk/launchers/minecraft/troubleshooting' }
+                ]
+              },
+              {
+                text: 'BedrockOnLinux',
+                collapsed: true,
+                items: [
+                  { text: 'Головна', link: '/uk/launchers/bedrock-on-linux/' }
+                ]
+              },
+              {
+                text: 'GenovaLauncher',
+                collapsed: true,
+                items: [
+                  { text: 'Головна', link: '/uk/launchers/genova-launcher/' }
                 ]
               }
             ]
@@ -759,6 +927,20 @@ export default defineConfig({
                     items: [
                       { text: 'Home', link: '/it/dev/projects/audiosource/' }
                     ]
+                  },
+                  {
+                    text: 'BedrockOnLinux',
+                    collapsed: true,
+                    items: [
+                      { text: 'Home', link: '/it/dev/projects/bedrock-on-linux/' }
+                    ]
+                  },
+                  {
+                    text: 'GenovaLauncher',
+                    collapsed: true,
+                    items: [
+                      { text: 'Home', link: '/it/dev/projects/genova-launcher/' }
+                    ]
                   }
                 ]
               }
@@ -777,6 +959,20 @@ export default defineConfig({
                   { text: 'Installazione', link: '/it/launchers/minecraft/installation' },
                   { text: 'Configurazione', link: '/it/launchers/minecraft/configuration' },
                   { text: 'Risoluzione dei problemi', link: '/it/launchers/minecraft/troubleshooting' }
+                ]
+              },
+              {
+                text: 'BedrockOnLinux',
+                collapsed: true,
+                items: [
+                  { text: 'Home', link: '/it/launchers/bedrock-on-linux/' }
+                ]
+              },
+              {
+                text: 'GenovaLauncher',
+                collapsed: true,
+                items: [
+                  { text: 'Home', link: '/it/launchers/genova-launcher/' }
                 ]
               }
             ]

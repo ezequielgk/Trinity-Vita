@@ -28,3 +28,15 @@ Un reproductor de música para terminal ultraligero y controlado por teclado, es
 Usa tu dispositivo Android como micrófono USB con control por TUI y bandeja del sistema.
 
 - [Inicio del Proyecto](./audiosource/index.md)
+
+## BedrockOnLinux
+
+Ejecuta Minecraft Bedrock para Windows (edición GDK) en Linux con identidad nativa de Microsoft/Xbox.
+
+- [Inicio del Proyecto](./bedrock-on-linux/index.md)
+
+## GenovaLauncher
+
+Un lanzador gráfico moderno para Minecraft: Bedrock Edition en Linux, construido con PySide6 (Qt6).
+
+- [Inicio del Proyecto](./genova-launcher/index.md)

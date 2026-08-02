@@ -10,6 +10,8 @@ Actualmente, nuestro desarrollo se centra en un ecosistema creciente de proyecto
 * **Neko Void:** Una distribución de Void Linux con `runit`, el escritorio MATE y soporte de gaming preconfigurado. 100% libre de systemd.
 * **CMUS++:** Un reproductor de música para terminal ultraligero y controlado por teclado, escrito en C++17.
 * **Audio Source:** Usa tu dispositivo Android como micrófono USB con control por TUI y bandeja del sistema.
+* **BedrockOnLinux:** Ejecuta Minecraft Bedrock para Windows (edición GDK) en Linux con identidad nativa de Microsoft/Xbox.
+* **GenovaLauncher:** Un lanzador gráfico moderno para Minecraft: Bedrock Edition en Linux, construido con PySide6 (Qt6).
 
 ## Arquitectura y Filosofía
 
