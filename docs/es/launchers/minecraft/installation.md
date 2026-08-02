@@ -27,17 +27,12 @@ Esta es la forma preferida para los miembros de la comunidad que desean las func
     flatpak remote-add trinity https://github.com/Trinity-LA/Trinity-Launcher/releases/download/flatpak/com.trench.trinity.launcher.flatpakrepo
     ```
 
-3. **Instala el runtime de KDE (Qt6):**
+3. **Instala las dependencias (runtime de KDE, Qt WebEngine y OpenGL de 32 bits):**
     ```bash
-    flatpak install flathub org.kde.Platform//6.10
+    flatpak install flathub org.freedesktop.Platform.GL32.default//24.08 org.freedesktop.Platform.Compat.i386//24.08 flathub org.kde.Platform//6.10 flathub io.qt.qtwebengine.BaseApp//6.10
     ```
 
-4. **Instala la base de Qt WebEngine:**
-    ```bash
-    flatpak install flathub io.qt.qtwebengine.BaseApp//6.10
-    ```
-
-5. **Instala Trinity Launcher:**
+4. **Instala Trinity Launcher:**
     ```bash
     flatpak install com.trench.trinity.launcher
     ```
