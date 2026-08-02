@@ -68,8 +68,6 @@ Trinity Launcher — проект, управляемый сообществом
 3. **Открыть с помощью Gear Level:** Правый клик по файлу `.AppImage` -> Открыть с помощью -> **Gear Level**.
 4. **Разблокировать и интегрировать:** Нажмите **«Unlock»**, чтобы сделать его исполняемым, и **«Add to apps menu»** для лёгкого доступа.
 
----
-
 ## Удалённый вход (только AppImage)
 
 ::: warning Локальный vs удалённый
@@ -96,5 +94,33 @@ Trinity Launcher — проект, управляемый сообществом
     ```bash
     flatpak run com.trench.trinity.launcher
     ```
+
+---
+
+### Метод D: NixOS
+
+Для пользователей NixOS и других систем на основе Nix прочитайте официальные шаги:
+
+- [Шаги для запуска на NixOS или использования Nix](https://codeberg.org/javiercplus/Trinity-Launcher-NIXOS/src/branch/main/)
+
+### Метод E: macOS (Beta - DMG)
+
+Скачайте и распакуйте `trinity-macos-dmg`:
+
+- [Нажмите, чтобы скачать DMG x86_64](https://github.com/Trinity-LA/Trinity-Launcher/releases/download/2.6-beta/trinity-macos-x86_64-dmg.zip)
+- [Нажмите, чтобы скачать DMG ARM](https://github.com/Trinity-LA/Trinity-Launcher/releases/download/2.6-beta/trinity-macos-arm64-dmg.zip)
+
+Переместите **Trinity.app** в папку **Программы**, а затем запустите его из терминала:
+
+```sh
+cd /Applications/Trinity.app/Contents/MacOS/
+./trinity-bin
+```
+
+#### Решение проблем
+
+Если вы получили сообщение «Trinity not opened; Apple could not verify Trinity is free of malware», перейдите в **Системные настройки > Конфиденциальность и безопасность**, прокрутите вниз — вы должны увидеть «Trinity was locked» с опцией **Всё равно открыть**. Нажмите **Всё равно открыть**.
+
+- Убедитесь, что приложение находится в папке «Программы».
 
 <CommunityCard />

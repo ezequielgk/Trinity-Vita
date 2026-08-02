@@ -68,8 +68,6 @@ Ideal para usuários que preferem gerenciamento manual sem gerenciadores de paco
 3. **Abrir com o Gear Level:** Clique com o botão direito no arquivo `.AppImage` -> Abrir com -> **Gear Level**.
 4. **Desbloquear e Integrar:** Clique em **"Unlock"** para torná-lo executável e em **"Add to apps menu"** para acesso fácil.
 
----
-
 ## Login Remoto (Somente AppImage)
 
 ::: warning Local vs Remoto
@@ -96,5 +94,33 @@ Esta etapa é **necessária apenas** para a versão **AppImage** para habilitar 
     ```bash
     flatpak run com.trench.trinity.launcher
     ```
+
+---
+
+### Método D: NixOS
+
+Para usuários de NixOS e de outros sistemas baseados em Nix, leia os passos oficiais:
+
+- [Passos para executar no NixOS ou usar o Nix](https://codeberg.org/javiercplus/Trinity-Launcher-NIXOS/src/branch/main/)
+
+### Método E: macOS (Beta - DMG)
+
+Baixe e extraia o `trinity-macos-dmg`:
+
+- [Clique para baixar o DMG x86_64](https://github.com/Trinity-LA/Trinity-Launcher/releases/download/2.6-beta/trinity-macos-x86_64-dmg.zip)
+- [Clique para baixar o DMG ARM](https://github.com/Trinity-LA/Trinity-Launcher/releases/download/2.6-beta/trinity-macos-arm64-dmg.zip)
+
+Mova o **Trinity.app** para a pasta **Aplicativos** e depois execute-o no terminal:
+
+```sh
+cd /Applications/Trinity.app/Contents/MacOS/
+./trinity-bin
+```
+
+#### Solução de Problemas
+
+Se receber a mensagem "Trinity not opened; Apple could not verify Trinity is free of malware", vá em **Ajustes do Sistema > Privacidade e Segurança**, role para baixo e você deverá ver "Trinity was locked" com a opção **Abrir mesmo assim**. Clique em **Abrir mesmo assim**.
+
+- Certifique-se de que o app esteja na pasta Aplicativos.
 
 <CommunityCard />

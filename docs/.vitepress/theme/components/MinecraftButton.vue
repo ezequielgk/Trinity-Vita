@@ -41,6 +41,10 @@ const openLink = () => {
   min-width: 240px;
 }
 
+.minecraft-btn + .minecraft-btn {
+  margin-top: 12px;
+}
+
 .minecraft-btn:hover {
   opacity: 0.9;
 }
