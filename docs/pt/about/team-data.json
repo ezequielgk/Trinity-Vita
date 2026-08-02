@@ -1,0 +1,134 @@
+[
+  {
+    "avatar": "https://github.com/Trinity-LA.png",
+    "name": "Crow",
+    "title": "Criador do Projeto",
+    "desc": "Fundador e visionário por trás do Trinity Launcher. Lidera o desenvolvimento conceitual e define a direção estratégica do projeto.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/Trinity-LA"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/javiercplus.png",
+    "name": "javiercplus",
+    "title": "Co-criador e Desenvolvedor",
+    "desc": "Co-criador que participa ativamente do desenvolvimento do lançador enquanto supervisiona o projeto. Garante a qualidade e a coordenação da equipe.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/javiercplus"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/0rt4.png",
+    "name": "Orta",
+    "title": "Supervisor do Projeto",
+    "desc": "Co-supervisor do projeto com experiência em arquitetura de software e liderança técnica. Supervisiona a implementação das funcionalidades-chave.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/0rt4"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/MrTanuk.png",
+    "name": "MrTanuk",
+    "title": "Desenvolvedor Principal",
+    "desc": "Contribuiu para o desenvolvimento principal junto com o JavierC e desempenhou um papel fundamental na resolução de problemas técnicos.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/MrTanuk"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/ezequielgk.png",
+    "name": "Ezequiel",
+    "title": "Design Web",
+    "desc": "Designer e desenvolvedor frontend especializado em interfaces modernas. Responsável pelo design visual e pela experiência do usuário do Trinity Launcher.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/ezequielgk"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/KevinRunforrestt.png",
+    "name": "KevinRunforrestt",
+    "title": "Documentação e Suporte",
+    "desc": "Gerenciou a tradução dos arquivos de documentação em markdown e forneceu assistência à equipe de desenvolvimento.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/KevinRunforrestt"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/HylianSoul.png",
+    "name": "HylianSoul",
+    "title": "Tradutor",
+    "desc": "Contribuiu com a tradução para o catalão do lançador e forneceu uma valiosa assistência à comunidade.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/HylianSoul"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/BrokenByteOfCode.png",
+    "name": "BrokenByteOfCode",
+    "title": "Tradutor",
+    "desc": "Forneceu a tradução para o ucraniano do Trinity Launcher, ajudando a expandir nosso alcance para mais usuários.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/BrokenByteOfCode"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/bgusenda.png",
+    "name": "bgusenda",
+    "title": "Tradutor",
+    "desc": "Forneceu a tradução para o português do Trinity Launcher, ajudando a expandir nosso alcance para mais usuários.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/bgusenda"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/p3p3p3k4z.png",
+    "name": "p3p3p3k4z",
+    "title": "Colaborador do Script de Build",
+    "desc": "Melhorou o script de compilação e build do projeto.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/p3p3p3k4z"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/IoselDev.png",
+    "name": "IoselDev",
+    "title": "Mantenedor de Pacotes",
+    "desc": "Contribuiu exclusivamente criando o PKGBUILD para o pacote do AUR.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/IoselDev"
+      }
+    ]
+  }
+]
