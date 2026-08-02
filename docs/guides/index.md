@@ -1,31 +1,18 @@
 # Welcome to Trinity
 
-Trinity is an ambitious open source ecosystem designed to bring the **Minecraft Bedrock Edition** experience to the Linux desktop. It bridges the gap between different open source projects to provide a seamless, performant, and native-feeling experience.
+Trinity is an open source ecosystem of Linux projects: a game launcher, a lightweight Void Linux distribution, and more.
 
-## The Ecosystem
+## Projects
 
-Trinity is composed of several core projects, each serving a specific purpose in the architecture:
-
-### 🚀 Trinity Launcher
-The user-facing application that manages your Game, Instances, and Accounts.
-- **Native Experience:** Built with Qt6 to feel at home on your Linux desktop.
-- **Sandboxed:** Distributed via Flatpak for security and stability.
-- **Open Source:** Completely transparent and community-driven.
-
-
+- **Trinity Launcher:** Manages your game, instances, and accounts. Built with Qt6 and distributed via Flatpak.
+- **Neko Void:** A **Void Linux** distribution with `runit`, the MATE desktop, and preconfigured gaming support. 100% systemd-free.
+- **CMUS++:** A terminal music player.
+- **Audio Source:** Use your Android device as a USB microphone.
 
 ## Where to Start?
 
-If you are new to Trinity, we recommend following these guides in order:
+1. **[Install the Launcher](../launchers/minecraft/installation)**
+2. **[Configuration](../launchers/minecraft/configuration)**
+3. **[Troubleshooting](../launchers/minecraft/troubleshooting)**
 
-1. **[Getting Started](./getting-started/)**: Learn how to install and set up the launcher for the first time.
-2. **[Configuration](../docs/configuration/)**: Customize your experience with global settings.
-3. **[Troubleshooting](./troubleshooting/common-issues)**: Solve common issues if you encounter any problems.
-
-## For Developers
-
-Are you interested in contributing? Check out our **[Developer Zone](../dev/)** to learn about the architecture, setup your local environment, and start writing code.
-
-> [!TIP]
-> **Join the Community!**
-> If you have questions or want to chat with other users, check out the resources at the bottom of the [Getting Started](./getting-started/#join-the-community) page.
+For developers, check out our **[Developer Zone](../dev/)** or explore all **[Projects](../dev/projects/)**.

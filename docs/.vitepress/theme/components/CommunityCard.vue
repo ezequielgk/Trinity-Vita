@@ -12,18 +12,18 @@ const texts = computed(() => {
       discordTitle: '¿Necesitas ayuda?',
       discordSubtitle: 'Únete a nuestra comunidad de Discord para obtener soporte',
       discordButton: 'Unirse a Discord',
-      telegramTitle: 'Mantente actualizado',
-      telegramSubtitle: 'Únete a nuestro canal de Telegram para las últimas noticias',
-      telegramButton: 'Unirse a Telegram'
+      fluxerTitle: 'Mantente actualizado',
+      fluxerSubtitle: 'Sigue nuestra comunidad en Fluxer',
+      fluxerButton: 'Unirse a Fluxer'
     }
   }
   return {
     discordTitle: 'Need help?',
     discordSubtitle: 'Join our Discord community to get support',
     discordButton: 'Join Discord',
-    telegramTitle: 'Stay updated',
-    telegramSubtitle: 'Join our Telegram channel for the latest news',
-    telegramButton: 'Join Telegram'
+    fluxerTitle: 'Stay updated',
+    fluxerSubtitle: 'Follow our community on Fluxer',
+    fluxerButton: 'Join Fluxer'
   }
 })
 
@@ -31,8 +31,8 @@ const openDiscord = () => {
   window.open('https://discord.gg/EFFpSCDmcJ', '_blank')
 }
 
-const openTelegram = () => {
-  window.open('https://t.me/+A7Y7lNK3PlpkNzFh', '_blank')
+const openFluxer = () => {
+  window.open('https://fluxer.gg/OlQ0bSc8', '_blank')
 }
 
 </script>
@@ -56,19 +56,22 @@ const openTelegram = () => {
       </div>
     </div>
 
-    <!-- Telegram Card -->
-    <div class="community-card telegram-card">
+    <!-- Fluxer Card -->
+    <div class="community-card fluxer-card">
       <div class="content">
-        <h3 class="title">{{ texts.telegramTitle }}</h3>
-        <p class="subtitle">{{ texts.telegramSubtitle }}</p>
+        <h3 class="title">{{ texts.fluxerTitle }}</h3>
+        <p class="subtitle">{{ texts.fluxerSubtitle }}</p>
         
-        <button class="action-btn telegram-btn" @click="openTelegram">
+        <button class="action-btn fluxer-btn" @click="openFluxer">
           <span class="icon">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M21.68 3.56c-.28-.2-.68-.24-1.02-.08L3.26 10.4c-.7.3-1.14.98-1.14 1.74s.44 1.44 1.14 1.74l4.46 1.9 1.58 5.16a1.98 1.98 0 0 0 1.88 1.4c.54 0 1.06-.22 1.44-.6l2.12-2.12 4.46 3.06c.38.26.84.34 1.3.22s.84-.44 1.02-.88l4-16a2 2 0 0 0-.84-2.46zM13 14 8.7 11.8l9.6-6-8.2 8.6v.02L13 14z" fill="currentColor"/>
+              <path d="M12 3C6.48 3 2 6.58 2 11c0 2.05.98 3.9 2.56 5.32-.15 1.23-.58 2.32-1.25 3.26-.1.14.02.34.19.29 1.38-.39 2.55-1.06 3.53-1.89.94.32 1.95.5 3 .5 5.52 0 10-3.58 10-8s-4.48-8-10-8z" fill="currentColor"/>
+              <circle cx="8" cy="11" r="1.5" fill="var(--vp-c-bg)"/>
+              <circle cx="12" cy="11" r="1.5" fill="var(--vp-c-bg)"/>
+              <circle cx="16" cy="11" r="1.5" fill="var(--vp-c-bg)"/>
             </svg>
           </span>
-          {{ texts.telegramButton }}
+          {{ texts.fluxerButton }}
         </button>
       </div>
     </div>
@@ -93,7 +96,6 @@ const openTelegram = () => {
 .community-card {
   background-color: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-divider);
-  border-radius: 12px;
   padding: 2rem;
   display: flex;
   justify-content: center;
@@ -133,7 +135,6 @@ const openTelegram = () => {
   width: 100%;
   padding: 12px 24px;
   color: white;
-  border-radius: 8px;
   border: none;
   font-weight: 600;
   font-size: 1rem;
@@ -153,8 +154,8 @@ const openTelegram = () => {
   background-color: #5865F2; /* Discord Blurple */
 }
 
-.telegram-btn {
-  background-color: #24A1DE; /* Telegram Blue */
+.fluxer-btn {
+  background-color: #4641D9; /* Fluxer Indigo */
 }
 
 

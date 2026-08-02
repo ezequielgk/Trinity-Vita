@@ -11,19 +11,19 @@ hero:
   actions:
     - theme: brand
       text: Comenzar
-      link: /es/guides/getting-started/
+      link: /es/guides/
     - theme: alt
-      text: Documentación
-      link: /es/docs/
+      text: Lanzadores
+      link: /es/launchers/
 
 features:
   - title: Proyectos
-    details: Explora el Lanzador Trinity.
+    details: Explora el Lanzador Trinity, Neko Void, CMUS++ y Audio Source.
     link: /es/dev/projects/
   - title: Guías y Tutoriales
     details: Guías paso a paso para comenzar y ayudarte a dominar el ecosistema.
     link: /es/guides/
   - title: Zona de Desarrolladores
-    details: Pautas de contribución, arquitectura técnica e instrucciones de configuración.
+    details: Arquitectura técnica e instrucciones de configuración para cada proyecto.
     link: /es/dev/
 ---

@@ -32,7 +32,6 @@ const openLink = () => {
   background-color: #4A90D9;
   color: white;
   border: none;
-  border-radius: 8px;
   padding: 12px 24px;
   font-weight: 600;
   font-size: 1rem;

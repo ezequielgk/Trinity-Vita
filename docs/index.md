@@ -12,20 +12,20 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guides/getting-started/
+      link: /guides/
     - theme: alt
-      text: Documentation
-      link: /docs/
+      text: Launchers
+      link: /launchers/
 
 features:
   - title: Projects
-    details: Explore the Trinity Launcher.
+    details: Explore Trinity Launcher, Neko Void, CMUS++, and Audio Source.
     link: /dev/projects/
   - title: Guides & Tutorials
     details: Step-by-step guides to get you started and help you master the ecosystem.
     link: /guides/
   - title: Developer Zone
-    details: Contributing guidelines, technical architecture, and setup instructions.
+    details: Technical architecture and setup instructions for every project.
     link: /dev/
 ---
 

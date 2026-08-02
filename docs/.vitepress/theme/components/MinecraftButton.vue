@@ -31,7 +31,6 @@ const openLink = () => {
   background-color: #10B981; /* Emerald Green */
   color: white;
   border: none;
-  border-radius: 8px;
   padding: 12px 24px;
   font-weight: 600;
   font-size: 1.1rem;

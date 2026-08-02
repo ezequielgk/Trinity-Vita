@@ -12,7 +12,7 @@ We develop intuitive launchers and tools that simplify complex tasks.
 
 ### Core Projects
 
-*   **Trinity Launcher:** A polished, modern launcher designed to manage your applications and games with ease. It focuses on a seamless user experience, handling dependencies and configurations automatically so you don't have to.
+*   **Trinity Launcher:** Our modern launcher for **Minecraft Bedrock Edition** on Linux. Learn more in [Projects > Trinity Launcher](/dev/projects/trinity-launcher/).
 
 ## Why "Trinity"?
 

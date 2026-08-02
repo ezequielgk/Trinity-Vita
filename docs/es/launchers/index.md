@@ -1,10 +1,16 @@
-# Resumen de Lanzadores
+# Lanzadores
 
-Trinity Launcher no es solo una aplicación única; es un **centro impulsado por la comunidad** diseñado para unificar las experiencias de juego modernas en Linux.
+Trinity Projects desarrolla lanzadores que llevan al escritorio Linux juegos que no cuentan con soporte nativo.
 
-Nuestro objetivo es actuar como un puente entre proyectos complejos de código abierto y el usuario final, proporcionando una solución de "un clic" para juegos que no siempre ofrecen soporte nativo en Linux.
+Cada lanzador se distribuye como paquete **Flatpak**, manteniéndolo aislado de tu sistema principal para una experiencia segura y estable.
 
-### Proyectos Clave que soportamos:
-* **Minecraft Bedrock:** Impulsado por los esfuerzos comunitarios de los proyectos `mcpelauncher` y `msa`.
+## Lanzadores Disponibles
 
-Al usar **tecnología Flatpak**, aseguramos que estos proyectos permanezcan aislados de tu sistema central, proporcionando un entorno seguro y estable para cada jugador.
+### Minecraft Bedrock
+Juega **Minecraft Bedrock Edition** en Linux con una experiencia casi nativa, impulsado por los proyectos comunitarios `mcpelauncher` y `msa`.
+
+- [Resumen](./minecraft/overview) Cómo funciona
+- [Instalación](./minecraft/installation) Instala el lanzador
+- [Configuración](./minecraft/configuration) Configura versiones y contenido
+
+<CommunityCard />

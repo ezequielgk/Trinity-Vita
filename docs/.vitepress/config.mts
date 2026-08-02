@@ -11,7 +11,7 @@ export default defineConfig({
   },
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['meta', { name: 'theme-color', content: '#9D74F4' }],
+    ['meta', { name: 'theme-color', content: '#9596C5' }],
     ['meta', { name: 'author', content: 'Trinity Projects' }],
     ['meta', { name: 'keywords', content: 'Trinity, Open Source, Development, Launcher, Minecraft, Community, Projects' }],
     ['meta', { name: 'description', content: 'A open source eco-system providing tools and software like Trinity Launcher.' }],
@@ -48,16 +48,7 @@ export default defineConfig({
             text: 'Getting Started',
             collapsed: false,
             items: [
-              { text: 'Overview', link: '/guides/' },
-              { text: 'Getting Started', link: '/guides/getting-started/' },
-              {
-                text: 'Troubleshooting',
-                collapsed: true,
-                items: [
-                  { text: 'Common Issues', link: '/guides/troubleshooting/common-issues' },
-                  { text: 'Logs & Reports', link: '/guides/troubleshooting/logs-reports' }
-                ]
-              }
+              { text: 'Overview', link: '/guides/' }
             ]
           },
           {
@@ -65,23 +56,6 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: 'Overview', link: '/dev/' },
-              {
-                text: 'Contributing',
-                collapsed: true,
-                items: [
-                  {
-                    text: 'Trinity Launcher',
-                    collapsed: false,
-                    items: [
-                      { text: 'Guide', link: '/dev/contributing/trinity-launcher/' },
-                      { text: 'How to Contribute', link: '/dev/contributing/trinity-launcher/how-to-contribute' },
-                      { text: 'Code Style', link: '/dev/contributing/trinity-launcher/code-style' },
-                      { text: 'Commit Strategy', link: '/dev/contributing/trinity-launcher/commit-strategy' },
-                      { text: 'Issues', link: '/dev/contributing/trinity-launcher/issues' },
-                      { text: 'Pull Requests', link: '/dev/contributing/trinity-launcher/pull-requests' }
-                    ]
-                  }]
-              },
               {
                 text: 'Projects',
                 collapsed: true,
@@ -96,18 +70,30 @@ export default defineConfig({
                       { text: 'Instances', link: '/dev/projects/trinity-launcher/instance-management' },
                       { text: 'Build', link: '/dev/projects/trinity-launcher/build-process' }
                     ]
+                  },
+                  {
+                    text: 'Neko Void',
+                    collapsed: true,
+                    items: [
+                      { text: 'Home', link: '/dev/projects/neko-void/' }
+                    ]
+                  },
+                  {
+                    text: 'CMUS++',
+                    collapsed: true,
+                    items: [
+                      { text: 'Home', link: '/dev/projects/cmuspp/' }
+                    ]
+                  },
+                  {
+                    text: 'Audio Source',
+                    collapsed: true,
+                    items: [
+                      { text: 'Home', link: '/dev/projects/audiosource/' }
+                    ]
                   }
                 ]
               }
-            ]
-          },
-          {
-            text: 'Documentation',
-            collapsed: false,
-            items: [
-              { text: 'Overview', link: '/docs/' },
-              { text: 'Concepts', link: '/docs/concepts/' },
-              { text: 'Configuration', link: '/docs/configuration/' }
             ]
           },
           {
@@ -122,7 +108,6 @@ export default defineConfig({
                   { text: 'Overview', link: '/launchers/minecraft/overview' },
                   { text: 'Installation', link: '/launchers/minecraft/installation' },
                   { text: 'Configuration', link: '/launchers/minecraft/configuration' },
-                  { text: 'Usage', link: '/launchers/minecraft/usage' },
                   { text: 'Troubleshooting', link: '/launchers/minecraft/troubleshooting' }
                 ]
               }
@@ -166,16 +151,7 @@ export default defineConfig({
             text: 'Comenzando',
             collapsed: false,
             items: [
-              { text: 'Resumen', link: '/es/guides/' },
-              { text: 'Comenzando', link: '/es/guides/getting-started/' },
-              {
-                text: 'Solución de Problemas',
-                collapsed: true,
-                items: [
-                  { text: 'Problemas Comunes', link: '/es/guides/troubleshooting/common-issues' },
-                  { text: 'Registros y Reportes', link: '/es/guides/troubleshooting/logs-reports' }
-                ]
-              }
+              { text: 'Resumen', link: '/es/guides/' }
             ]
           },
           {
@@ -183,23 +159,6 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: 'Resumen', link: '/es/dev/' },
-              {
-                text: 'Contribuyendo',
-                collapsed: true,
-                items: [
-                  {
-                    text: 'Lanzador Trinity',
-                    collapsed: false,
-                    items: [
-                      { text: 'Guía', link: '/es/dev/contributing/trinity-launcher/' },
-                      { text: 'Cómo Contribuir', link: '/es/dev/contributing/trinity-launcher/how-to-contribute' },
-                      { text: 'Estilo de Código', link: '/es/dev/contributing/trinity-launcher/code-style' },
-                      { text: 'Estrategia de Commits', link: '/es/dev/contributing/trinity-launcher/commit-strategy' },
-                      { text: 'Reporte de Problemas', link: '/es/dev/contributing/trinity-launcher/issues' },
-                      { text: 'Solicitudes de Extracción', link: '/es/dev/contributing/trinity-launcher/pull-requests' }
-                    ]
-                  }]
-              },
               {
                 text: 'Proyectos',
                 collapsed: true,
@@ -214,22 +173,34 @@ export default defineConfig({
                       { text: 'Instancias', link: '/es/dev/projects/trinity-launcher/instance-management' },
                       { text: 'Compilación', link: '/es/dev/projects/trinity-launcher/build-process' }
                     ]
+                  },
+                  {
+                    text: 'Neko Void',
+                    collapsed: true,
+                    items: [
+                      { text: 'Inicio', link: '/es/dev/projects/neko-void/' }
+                    ]
+                  },
+                  {
+                    text: 'CMUS++',
+                    collapsed: true,
+                    items: [
+                      { text: 'Inicio', link: '/es/dev/projects/cmuspp/' }
+                    ]
+                  },
+                  {
+                    text: 'Audio Source',
+                    collapsed: true,
+                    items: [
+                      { text: 'Inicio', link: '/es/dev/projects/audiosource/' }
+                    ]
                   }
                 ]
               }
             ]
           },
           {
-            text: 'Documentación',
-            collapsed: false,
-            items: [
-              { text: 'Resumen', link: '/es/docs/' },
-              { text: 'Conceptos', link: '/es/docs/concepts/' },
-              { text: 'Configuración', link: '/es/docs/configuration/' }
-            ]
-          },
-          {
-            text: 'Launchers',
+            text: 'Lanzadores',
             collapsed: false,
             items: [
               { text: 'Resumen', link: '/es/launchers/' },
@@ -240,7 +211,6 @@ export default defineConfig({
                   { text: 'Resumen', link: '/es/launchers/minecraft/overview' },
                   { text: 'Instalación', link: '/es/launchers/minecraft/installation' },
                   { text: 'Configuración', link: '/es/launchers/minecraft/configuration' },
-                  { text: 'Uso', link: '/es/launchers/minecraft/usage' },
                   { text: 'Solución de Problemas', link: '/es/launchers/minecraft/troubleshooting' }
                 ]
               }
@@ -265,7 +235,7 @@ export default defineConfig({
         socialLinks: [
           { icon: 'github', link: 'https://github.com/Trinity-LA/Trinity-Launcher' },
           { icon: 'discord', link: 'https://discord.gg/EFFpSCDmcJ' },
-          { icon: { svg: '<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M21.68 3.56c-.28-.2-.68-.24-1.02-.08L3.26 10.4c-.7.3-1.14.98-1.14 1.74s.44 1.44 1.14 1.74l4.46 1.9 1.58 5.16a1.98 1.98 0 0 0 1.88 1.4c.54 0 1.06-.22 1.44-.6l2.12-2.12 4.46 3.06c.38.26.84.34 1.3.22s.84-.44 1.02-.88l4-16a2 2 0 0 0-.84-2.46zM13 14 8.7 11.8l9.6-6-8.2 8.6v.02L13 14z"/></svg>' }, link: 'https://t.me/+A7Y7lNK3PlpkNzFh' }
+          { icon: { svg: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 3C6.48 3 2 6.58 2 11c0 2.05.98 3.9 2.56 5.32-.15 1.23-.58 2.32-1.25 3.26-.1.14.02.34.19.29 1.38-.39 2.55-1.06 3.53-1.89.94.32 1.95.5 3 .5 5.52 0 10-3.58 10-8s-4.48-8-10-8z" fill="currentColor"/><circle cx="8" cy="11" r="1.5" fill="var(--vp-c-bg)"/><circle cx="12" cy="11" r="1.5" fill="var(--vp-c-bg)"/><circle cx="16" cy="11" r="1.5" fill="var(--vp-c-bg)"/></svg>' }, link: 'https://fluxer.gg/OlQ0bSc8' }
         ]
       }
     }
@@ -278,7 +248,7 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Trinity-LA/Trinity-Launcher' },
       { icon: 'discord', link: 'https://discord.gg/EFFpSCDmcJ' },
-      { icon: { svg: '<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M21.68 3.56c-.28-.2-.68-.24-1.02-.08L3.26 10.4c-.7.3-1.14.98-1.14 1.74s.44 1.44 1.14 1.74l4.46 1.9 1.58 5.16a1.98 1.98 0 0 0 1.88 1.4c.54 0 1.06-.22 1.44-.6l2.12-2.12 4.46 3.06c.38.26.84.34 1.3.22s.84-.44 1.02-.88l4-16a2 2 0 0 0-.84-2.46zM13 14 8.7 11.8l9.6-6-8.2 8.6v.02L13 14z"/></svg>' }, link: 'https://t.me/+A7Y7lNK3PlpkNzFh' }
+      { icon: { svg: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 3C6.48 3 2 6.58 2 11c0 2.05.98 3.9 2.56 5.32-.15 1.23-.58 2.32-1.25 3.26-.1.14.02.34.19.29 1.38-.39 2.55-1.06 3.53-1.89.94.32 1.95.5 3 .5 5.52 0 10-3.58 10-8s-4.48-8-10-8z" fill="currentColor"/><circle cx="8" cy="11" r="1.5" fill="var(--vp-c-bg)"/><circle cx="12" cy="11" r="1.5" fill="var(--vp-c-bg)"/><circle cx="16" cy="11" r="1.5" fill="var(--vp-c-bg)"/></svg>' }, link: 'https://fluxer.gg/OlQ0bSc8' }
     ],
 
     footer: {

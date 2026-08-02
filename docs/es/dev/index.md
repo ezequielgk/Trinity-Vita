@@ -1,32 +1,28 @@
 # Desarrollo: Resumen
 
-Bienvenido al ecosistema de desarrollo de nuestros Lanzadores. Este espacio está diseñado para centralizar el conocimiento, herramientas y estándares necesarios para construir la próxima generación de herramientas comunitarias.
+Bienvenido al ecosistema de desarrollo de Trinity Projects. Este espacio centraliza el conocimiento, herramientas y estándares necesarios para contribuir a nuestros lanzadores.
 
 ## El Proyecto
 
-Actualmente, nuestro desarrollo se divide en dos pilares principales:
+Actualmente, nuestro desarrollo se centra en un ecosistema creciente de proyectos de código abierto:
 
 * **Trinity Launcher:** Nuestro motor base y plataforma de gestión de instancias para Minecraft Bedrock.
+* **Neko Void:** Una distribución de Void Linux con `runit`, el escritorio MATE y soporte de gaming preconfigurado. 100% libre de systemd.
+* **CMUS++:** Un reproductor de música para terminal ultraligero y controlado por teclado, escrito en C++17.
+* **Audio Source:** Usa tu dispositivo Android como micrófono USB con control por TUI y bandeja del sistema.
 
 ## Arquitectura y Filosofía
 
 Aspiramos a crear software modular, rápido y seguro. Nuestra arquitectura se basa en la separación de responsabilidades: el **Núcleo** gestiona procesos pesados, mientras que la **UI** ofrece una experiencia de usuario fluida y moderna.
 
-### Pila Tecnológica
-
-Para mantener la consistencia entre proyectos, utilizamos:
-
-* **Core:** C++ (Qt6 Framework)
-* **Frontend:** Qt Widgets
-* **Comunicación:** APIs REST / Señales y Slots de C++
+Para ver la pila tecnológica completa y el desglose de componentes, consulta la [página del proyecto Trinity Launcher](./projects/trinity-launcher/index.md) y la [página del proyecto Neko Void](./projects/neko-void/index.md).
 
 ## ¿Por dónde empezar?
 
 Si eres nuevo en el proyecto, recomendamos seguir este orden:
 
-1. **Guía de Contribución:** Lee nuestras reglas en [Contribuyendo > Guía](./contributing/trinity-launcher/index.md).
-2. **Estilo de Código:** Revisa [Estilo de Código](./contributing/trinity-launcher/code-style.md) para asegurar que tus Pull Requests sean aprobados rápidamente.
-3. **Explorar Proyectos:** Ve a la sección de [Proyectos](./projects/index.md) para entender la arquitectura específica de cada lanzador.
+1. **Explorar Proyectos:** Ve a la sección de [Proyectos](./projects/index.md) para entender la arquitectura y los detalles técnicos de cada proyecto.
+2. **Elige tu proyecto:** Cada proyecto tiene su propia página de inicio con documentación completa — [Trinity Launcher](./projects/trinity-launcher/index.md), [Neko Void](./projects/neko-void/index.md), [CMUS++](./projects/cmuspp/index.md) y [Audio Source](./projects/audiosource/index.md).
 
 ## Comunicación y Soporte
 

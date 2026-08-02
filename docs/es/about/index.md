@@ -12,7 +12,7 @@ Desarrollamos lanzadores intuitivos y herramientas que simplifican tareas comple
 
 ### Proyectos Principales
 
-*   **Trinity Launcher:** Un lanzador pulido y moderno diseñado para gestionar tus aplicaciones y juegos con facilidad. Se enfoca en una experiencia de usuario fluida, manejando dependencias y configuraciones automáticamente para que tú no tengas que hacerlo.
+*   **Trinity Launcher:** Nuestro lanzador moderno para **Minecraft Bedrock Edition** en Linux. Aprende más en [Proyectos > Trinity Launcher](/es/dev/projects/trinity-launcher/).
 
 ## ¿Por qué "Trinity"?
 
