@@ -1,4 +1,4 @@
-# Minecraft Bedrock: Visão Geral
+# Trinity Launcher: Visão Geral
 
 O Trinity Launcher oferece uma experiência semelhante à nativa para o **Minecraft Bedrock Edition** no Linux. Em vez de usar emuladores pesados, nossa solução aproveita projetos da comunidade que traduzem chamadas de sistema do Android em instruções nativas do Linux.
 

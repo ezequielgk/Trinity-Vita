@@ -6,7 +6,7 @@ Trinity Projects створює лаунчери, які приносять іг
 
 ## Доступні лаунчери
 
-### Minecraft Bedrock
+### Trinity Launcher
 Грайте в **Minecraft Bedrock Edition** на Linux із майже нативним досвідом завдяки проєктам спільноти `mcpelauncher` та `msa`.
 
 - [Огляд](./minecraft/overview) Як це працює

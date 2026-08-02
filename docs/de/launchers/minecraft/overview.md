@@ -1,4 +1,4 @@
-# Minecraft Bedrock: Übersicht
+# Trinity Launcher: Übersicht
 
 Trinity Launcher bietet eine native Erfahrung für **Minecraft Bedrock Edition** unter Linux. Statt schwerer Emulatoren nutzt unsere Lösung Community-Projekte, die Android-Systemaufrufe in native Linux-Anweisungen übersetzen.
 

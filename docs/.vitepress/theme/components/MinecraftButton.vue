@@ -1,6 +1,7 @@
 <script setup lang="ts">
 const props = defineProps<{
   link?: string
+  label?: string
 }>()
 
 const openLink = () => {
@@ -18,7 +19,7 @@ const openLink = () => {
         <path d="M4 14H6V18H18V14H20V18C20 19.1046 19.1046 20 18 20H6C4.89543 20 4 19.1046 4 18V14Z" fill="currentColor"/>
       </svg>
     </span>
-    <span class="label">Download AppImage</span>
+    <span class="label">{{ label ?? 'Download AppImage' }}</span>
   </button>
 </template>
 

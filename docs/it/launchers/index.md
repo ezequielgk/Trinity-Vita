@@ -6,7 +6,7 @@ Ogni launcher è distribuito come pacchetto **Flatpak**, mantenendolo isolato da
 
 ## Launcher disponibili
 
-### Minecraft Bedrock
+### Trinity Launcher
 Gioca a **Minecraft Bedrock Edition** su Linux con un'esperienza quasi nativa, potenziata dai progetti della community `mcpelauncher` e `msa`.
 
 - [Panoramica](./minecraft/overview) Come funziona

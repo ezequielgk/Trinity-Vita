@@ -116,7 +116,7 @@ export default defineConfig({
             items: [
               { text: 'Overview', link: '/launchers/' },
               {
-                text: 'Minecraft',
+                text: 'Trinity Launcher',
                 collapsed: true,
                 items: [
                   { text: 'Overview', link: '/launchers/minecraft/overview' },
@@ -247,7 +247,7 @@ export default defineConfig({
             items: [
               { text: 'Resumen', link: '/es/launchers/' },
               {
-                text: 'Minecraft',
+                text: 'Trinity Launcher',
                 collapsed: true,
                 items: [
                   { text: 'Resumen', link: '/es/launchers/minecraft/overview' },
@@ -388,7 +388,7 @@ export default defineConfig({
             items: [
               { text: 'Visão geral', link: '/pt/launchers/' },
               {
-                text: 'Minecraft',
+                text: 'Trinity Launcher',
                 collapsed: true,
                 items: [
                   { text: 'Visão geral', link: '/pt/launchers/minecraft/overview' },
@@ -529,7 +529,7 @@ export default defineConfig({
             items: [
               { text: 'Übersicht', link: '/de/launchers/' },
               {
-                text: 'Minecraft',
+                text: 'Trinity Launcher',
                 collapsed: true,
                 items: [
                   { text: 'Übersicht', link: '/de/launchers/minecraft/overview' },
@@ -670,7 +670,7 @@ export default defineConfig({
             items: [
               { text: 'Обзор', link: '/ru/launchers/' },
               {
-                text: 'Minecraft',
+                text: 'Trinity Launcher',
                 collapsed: true,
                 items: [
                   { text: 'Обзор', link: '/ru/launchers/minecraft/overview' },
@@ -811,7 +811,7 @@ export default defineConfig({
             items: [
               { text: 'Огляд', link: '/uk/launchers/' },
               {
-                text: 'Minecraft',
+                text: 'Trinity Launcher',
                 collapsed: true,
                 items: [
                   { text: 'Огляд', link: '/uk/launchers/minecraft/overview' },
@@ -952,7 +952,7 @@ export default defineConfig({
             items: [
               { text: 'Panoramica', link: '/it/launchers/' },
               {
-                text: 'Minecraft',
+                text: 'Trinity Launcher',
                 collapsed: true,
                 items: [
                   { text: 'Panoramica', link: '/it/launchers/minecraft/overview' },

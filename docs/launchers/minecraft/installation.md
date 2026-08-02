@@ -61,7 +61,8 @@ If you prefer a graphical interface:
 Ideal for users who prefer manual management without package managers.
 
 1. **Download:**  
-   <MinecraftButton link="https://github.com/Trinity-LA/Trinity-Launcher/releases/download/2.6-beta/Trinity_Launcher-x86_64.AppImage" />
+   <MinecraftButton link="https://github.com/Trinity-LA/Trinity-Launcher/releases/download/latest/Trinity_Launcher-x86_64.AppImage" />
+   <MinecraftButton link="https://github.com/Trinity-LA/Trinity-Launcher/releases/download/latest/Trinity_Launcher-aarch64.AppImage" label="Download AppImage (ARM)" />
 
 2. **Install Gear Level:** Search for "Gear Level" in your App Store and install it.
 3. **Open with Gear Level:** Right-click the `.AppImage` file -> Open With -> **Gear Level**.

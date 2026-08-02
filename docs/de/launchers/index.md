@@ -6,7 +6,7 @@ Jeder Launcher wird als **Flatpak**-Paket verteilt und bleibt so vom Kernsystem 
 
 ## Verfügbare Launcher
 
-### Minecraft Bedrock
+### Trinity Launcher
 Spiele **Minecraft Bedrock Edition** unter Linux mit einer nativen Erfahrung, unterstützt durch die Community-Projekte `mcpelauncher` und `msa`.
 
 - [Übersicht](./minecraft/overview) So funktioniert es
