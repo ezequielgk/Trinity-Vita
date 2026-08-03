@@ -61,7 +61,7 @@ Trinity Launcher — проєкт, керований спільнотою, як
 Ідеально для користувачів, які віддають перевагу ручному керуванню без менеджерів пакетів.
 
 1. **Завантажити:**  
-   <MinecraftButton link="https://github.com/Trinity-LA/Trinity-Launcher/releases/download/latest/Trinity_Launcher-x86_64.AppImage" />
+   <MinecraftButton link="https://github.com/Trinity-LA/Trinity-Launcher/releases/download/latest/Trinity_Launcher-x86_64.AppImage" label="Завантажити AppImage (x86_64)" />
    <MinecraftButton link="https://github.com/Trinity-LA/Trinity-Launcher/releases/download/latest/Trinity_Launcher-aarch64.AppImage" label="Завантажити AppImage (ARM)" />
 
 2. **Встановіть Gear Level:** Знайдіть «Gear Level» у своєму магазині застосунків і встановіть його.

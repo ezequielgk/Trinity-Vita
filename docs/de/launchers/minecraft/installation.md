@@ -61,7 +61,7 @@ Wenn du eine grafische Oberfläche bevorzugst:
 Ideal für Nutzer, die eine manuelle Verwaltung ohne Paketmanager bevorzugen.
 
 1. **Herunterladen:**  
-   <MinecraftButton link="https://github.com/Trinity-LA/Trinity-Launcher/releases/download/latest/Trinity_Launcher-x86_64.AppImage" />
+   <MinecraftButton link="https://github.com/Trinity-LA/Trinity-Launcher/releases/download/latest/Trinity_Launcher-x86_64.AppImage" label="AppImage herunterladen (x86_64)" />
    <MinecraftButton link="https://github.com/Trinity-LA/Trinity-Launcher/releases/download/latest/Trinity_Launcher-aarch64.AppImage" label="AppImage herunterladen (ARM)" />
 
 2. **Gear Level installieren:** Suche in deinem App Store nach "Gear Level" und installiere es.
